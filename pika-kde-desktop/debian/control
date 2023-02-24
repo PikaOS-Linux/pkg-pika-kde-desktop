@@ -94,9 +94,14 @@ Depends: ${misc:Depends},
     kaccounts-integration,
     plasma-supergfxctl,
     plasma-browser-integration,
-    plasma-calendar-addons,
-    plasma-dataengines-addons,
     dbus-x11,
+    plasma-widgets-addons,
+    plasma-wallpapers-addons,
+    plasma-runners-addons,
+    plasma-dataengines-addons,
+    plasma-calendar-addons,
+    kwin-addons,
+    kdeplasma-addons-data,
 # Applications
     kwalletmanager,
     print-manager,
@@ -125,7 +130,7 @@ Depends: ${misc:Depends},
     gwenview,
 ## Last to replace mime information
     ark,
-Recommends: firefox
+Recommends: firefox, gir1.2-dbusmenu-glib-0.4, gir1.2-dbusmenu-gtk3-0.4, gir1.2-dbusmenu-gtk-0.4, libappindicator3-1
 Conflicts: plasma-discover, pika-gnome-layouts
 Suggests: skanlite 
  
