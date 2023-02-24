@@ -102,6 +102,7 @@ Depends: ${misc:Depends},
     plasma-calendar-addons,
     kwin-addons,
     kdeplasma-addons-data,
+    libunity9,
 # Applications
     kwalletmanager,
     print-manager,
