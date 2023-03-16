@@ -127,12 +127,12 @@ Depends: ${misc:Depends},
     plasma-systemmonitor,
     plasma-vault,
     ksystemlog,
-    partitionmanager,
+    gnome-disk-utility,
     gwenview,
 ## Last to replace mime information
     ark,
 Recommends: firefox, gir1.2-dbusmenu-glib-0.4, gir1.2-dbusmenu-gtk3-0.4, gir1.2-dbusmenu-gtk-0.4, libappindicator3-1
-Conflicts: plasma-discover, pika-gnome-layouts
+Conflicts: plasma-discover, pika-gnome-layouts, partitionmanager
 Suggests: skanlite 
  
 Package: pika-kde-desktop
