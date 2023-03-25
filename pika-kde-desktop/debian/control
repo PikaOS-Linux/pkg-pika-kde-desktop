@@ -49,6 +49,7 @@ Depends: ${misc:Depends},
     sddm-theme-breeze,
     papirus-icon-theme,
     sound-theme-freedesktop,
+    pika-theme,
 # Plugins
     ghostscript-x,
     inputattach,
