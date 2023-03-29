@@ -104,7 +104,6 @@ Depends: ${misc:Depends},
     kwin-addons,
     kdeplasma-addons-data,
     libunity9,
-
 # Applications
     kwalletmanager,
     print-manager,
