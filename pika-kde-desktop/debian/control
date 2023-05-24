@@ -110,7 +110,6 @@ Depends: ${misc:Depends},
     fonts-noto-color-emoji,
     firmware-manager,
     gucharmap,
-    ibus-table-emoji,
     pika-welcome,
     pika-plasma-welcome,
     pavucontrol-qt,
@@ -138,7 +137,7 @@ Depends: ${misc:Depends},
 ## Last to replace mime information
     ark,
 Recommends: firefox, gir1.2-dbusmenu-glib-0.4, gir1.2-dbusmenu-gtk3-0.4, gir1.2-dbusmenu-gtk-0.4, libappindicator3-1
-Conflicts: plasma-discover, pika-gnome-layouts, partitionmanager
+Conflicts: plasma-discover, pika-gnome-layouts, partitionmanager, ibus
 Suggests: skanlite 
  
 Package: pika-kde-desktop
