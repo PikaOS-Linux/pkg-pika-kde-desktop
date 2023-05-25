@@ -8,9 +8,11 @@ then
 fi
 
 if [[ ! -f /usr/share/applications/org.kde.discover.desktop ]]
+then
     ln -s /usr/share/applications/mintinstall.desktop /usr/share/applications/org.kde.discover.desktop
 fi
 
 if [[ ! -f /usr/share/applications/org.kde.discover.apt.urlhandler.desktop ]]
+then
     ln -s /usr/share/applications/mintinstall.desktop /usr/share/applications/org.kde.discover.apt.urlhandler.desktop
 fi

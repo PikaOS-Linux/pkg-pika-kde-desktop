@@ -8,9 +8,11 @@ then
 fi
 
 if readlink /usr/share/applications/org.kde.discover.desktop
+then
     rm -rf /usr/share/applications/org.kde.discover.desktop
 fi
 
 if readlink /usr/share/applications/org.kde.discover.apt.urlhandler.desktop
+then
     rm -rf /usr/share/applications/org.kde.discover.apt.urlhandler.desktop
 fi
