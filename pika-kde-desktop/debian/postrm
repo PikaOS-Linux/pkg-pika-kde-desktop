@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+if readlink /usr/bin/kreadconfig
+then
+    rm -rf /usr/bin/kreadconfig
+fi
+
+if readlink /usr/share/applications/org.kde.discover.desktop
+    rm -rf /usr/share/applications/org.kde.discover.desktop
+fi
+
+if readlink /usr/share/applications/org.kde.discover.apt.urlhandler.desktop
+    rm -rf /usr/share/applications/org.kde.discover.apt.urlhandler.desktop
+fi

@@ -1,6 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 
-ln -s /usr/bin/kreadconfig5 /usr/bin/kreadconfig
+if [[ ! -f /usr/bin/kreadconfig ]]
+then
+    ln -s /usr/bin/kreadconfig5 /usr/bin/kreadconfig
+fi
 
+if [[ ! -f /usr/share/applications/org.kde.discover.desktop ]]
+    ln -s /usr/share/applications/mintinstall.desktop /usr/share/applications/org.kde.discover.desktop
+fi
+
+if [[ ! -f /usr/share/applications/org.kde.discover.apt.urlhandler.desktop ]]
+    ln -s /usr/share/applications/mintinstall.desktop /usr/share/applications/org.kde.discover.apt.urlhandler.desktop
+fi
