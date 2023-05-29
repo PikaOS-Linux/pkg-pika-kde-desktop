@@ -16,3 +16,5 @@ if [[ ! -f /usr/share/applications/org.kde.discover.apt.urlhandler.desktop ]]
 then
     ln -s /usr/share/applications/mintinstall.desktop /usr/share/applications/org.kde.discover.apt.urlhandler.desktop
 fi
+
+sed -e '/NotShowIn/ s/^#*/#/' -i file /usr/share/applications/gdebi.desktop  || true
