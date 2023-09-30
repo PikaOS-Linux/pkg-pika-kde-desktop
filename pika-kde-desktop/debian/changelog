@@ -1,3 +1,9 @@
+pika-kde-desktop (3.9.0-100pika1) pikauwu; urgency=medium
+
+  * Revert to ibus
+  
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 12 Jan 2023 16:48:00 +0300
+
 pika-kde-desktop (3.8.5-99pika2.lunar) lunar; urgency=medium
 
   * Update to lunar

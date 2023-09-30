@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Clone Upstream
 cd ./pika-kde-desktop
 
@@ -5,8 +7,7 @@ cd ./pika-kde-desktop
 apt-get build-dep ./ -y
 
 # Build package
-dh_make --createorig
-dpkg-buildpackage
+dpkg-buildpackage --no-sign
 
 # Move the debs to output
 cd ../
