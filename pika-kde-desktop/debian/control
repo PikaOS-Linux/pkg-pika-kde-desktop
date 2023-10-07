@@ -20,7 +20,7 @@ Depends: ${misc:Depends},
     svgpart,
     plasma-pa,
     plasma-nm,
-    pika-kde-settings,
+    pika-kde-settings | pika-settings,
     plasma-workspace-wayland,
     kwin-x11,
     sddm,
@@ -57,12 +57,11 @@ Depends: ${misc:Depends},
     libcanberra-gtk-module,
     appmenu-gtk2-module,
     appmenu-gtk3-module,
-    kde-config-cddb,                                                                                  
+    kde-config-cddb,
     kde-config-cron,
     kde-config-flatpak,
     kde-config-gtk-style,
     kde-config-gtk-style-preview,
-    kde-config-mailtransport,
     kde-config-plymouth,
     kde-config-screenlocker,
     kde-config-sddm,
@@ -147,7 +146,7 @@ Depends: ${misc:Depends},
 ## Last to replace mime information
     ark,
 Recommends: firefox, gir1.2-dbusmenu-glib-0.4, gir1.2-dbusmenu-gtk3-0.4, gir1.2-dbusmenu-gtk-0.4, libappindicator3-1
-Conflicts: plasma-discover, pika-gnome-layouts, partitionmanager, ibus
+Conflicts: plasma-discover, partitionmanager, pika-kde-settings
 Suggests: skanlite 
  
 Package: pika-kde-desktop
