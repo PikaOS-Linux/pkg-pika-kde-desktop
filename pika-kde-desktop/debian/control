@@ -50,6 +50,7 @@ Depends: ${misc:Depends},
     papirus-icon-theme,
     sound-theme-freedesktop,
     pika-theme,
+    pika-settings,
 # Plugins
     ghostscript-x,
     inputattach,
@@ -145,8 +146,8 @@ Depends: ${misc:Depends},
     knewstuff-dialog,
 ## Last to replace mime information
     ark,
-Recommends: firefox, gir1.2-dbusmenu-glib-0.4, gir1.2-dbusmenu-gtk3-0.4, gir1.2-dbusmenu-gtk-0.4, libappindicator3-1
-Conflicts: plasma-discover, partitionmanager, pika-kde-settings
+Recommends: firefox, gir1.2-dbusmenu-glib-0.4, gir1.2-dbusmenu-gtk3-0.4, gir1.2-dbusmenu-gtk-0.4, libappindicator3-1, pika-kde-settings
+Conflicts: plasma-discover, partitionmanager
 Suggests: skanlite 
  
 Package: pika-kde-desktop
