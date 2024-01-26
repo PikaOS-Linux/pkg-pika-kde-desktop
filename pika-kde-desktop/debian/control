@@ -144,10 +144,13 @@ Depends: ${misc:Depends},
     gnome-disk-utility,
     gwenview,
     knewstuff-dialog,
+    plasma-discover,
+    plasma-discover-backend-flatpak,
+    plasma-discover-backend-fwupd,
 ## Last to replace mime information
     ark,
 Recommends: firefox, gir1.2-dbusmenu-glib-0.4, gir1.2-dbusmenu-gtk3-0.4, gir1.2-dbusmenu-gtk-0.4, libappindicator3-1, pika-kde-settings
-Conflicts: plasma-discover, partitionmanager
+Conflicts: plasma-discover-backend-snap, partitionmanager
 Suggests: skanlite 
  
 Package: pika-kde-desktop
